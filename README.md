@@ -1,15 +1,19 @@
-# Digital Image Process
+## Cracked Tile Detection
 
-Project from Digital Image Process class.<br />
-Master degree, UPE - POLI (2018.2)
+Digital image processing class project, master degree, UPE - POLI (2018.2)
 
-## Description
+### Description
 
-The objective of the project is to detect cracks in images of ceramic.
-
-## Unet
-
+Project to detect cracks in images of tile (ceramic) using digital image processing and deep learning.
 For segmentation, it was used the unet model. [[ref]](https://github.com/zhixuhao/unet)
 
-## Results
+### Results
 
+
+| Original  | Predicted | Overlay |
+| ------------- | ------------- | ------------- |
+|   <img src="https://github.com/arthurflor23/cracked-tile-detection/blob/master/out/cracktile/001_3_original.png?raw=true" width="275"/>  | <img src="https://github.com/arthurflor23/cracked-tile-detection/blob/master/out/cracktile/001_2_predict.png?raw=true" width="275" />  | <img src="https://github.com/arthurflor23/cracked-tile-detection/blob/master/out/cracktile/001_4_overlay.png" width="275" /> |
+
+| Original  | Predicted | Overlay |
+| ------------- | ------------- | ------------- |
+|   <img src="https://github.com/arthurflor23/cracked-tile-detection/blob/master/out/crackconcrete/001_3_original.png?raw=true" width="275"/>  | <img src="https://github.com/arthurflor23/cracked-tile-detection/blob/master/out/crackconcrete/001_2_predict.png?raw=true" width="275" />  | <img src="https://github.com/arthurflor23/cracked-tile-detection/blob/master/out/crackconcrete/001_4_overlay.png?raw=true" width="275" /> |
