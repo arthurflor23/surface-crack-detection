@@ -1,10 +1,10 @@
-## Cracked Tile Detection
+## Surface Crack Detection
 
 Digital image processing class project, master degree, UPE - POLI (2018.2)
 
 ### Description
 
-Project to detect cracks in images of tile (ceramic) using digital image processing and deep learning.
+Project to detect surface cracks in images using digital image processing and deep learning.
 For segmentation, it was used the unet model. [[ref]](https://github.com/zhixuhao/unet)
 
 ### Results
