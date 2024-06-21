@@ -1,18 +1,18 @@
-## Surface Crack Detection
+## Surface Crack Detection and Segmentation
 
-Digital image processing class project, master degree, UPE - POLI (2018.2)
+Digital Image Processing class project, Master's degree, UPE - POLI (2018.2).
 
-### Description
-
-Project to detect surface cracks in images using digital image processing and deep learning.
-For segmentation, it was used the unet model. [[ref]](https://github.com/zhixuhao/unet)
+This project aims to detect and segment surface cracks in images using Digital Image Processing and deep learning techniques. The U-Net model was used for both crack detection and segmentation processes. For more details on the U-Net model, see the [paper](https://arxiv.org/abs/1505.04597v1) and the [repository](https://github.com/zhixuhao/unet).
 
 ### Results
 
+#### Cracked Tile Detection
 
 | Original  | Predicted | Overlay |
 | ------------- | ------------- | ------------- |
 |   <img src="https://github.com/arthurflor23/cracked-tile-detection/blob/master/out/cracktile/001_3_original.png?raw=true" width="275"/>  | <img src="https://github.com/arthurflor23/cracked-tile-detection/blob/master/out/cracktile/001_2_predict.png?raw=true" width="275" />  | <img src="https://github.com/arthurflor23/cracked-tile-detection/blob/master/out/cracktile/001_4_overlay.png" width="275" /> |
+
+#### Cracked Concrete Detection
 
 | Original  | Predicted | Overlay |
 | ------------- | ------------- | ------------- |
@@ -20,7 +20,7 @@ For segmentation, it was used the unet model. [[ref]](https://github.com/zhixuha
 
 ### Citation
 
-If this project helped in any way in your research work, feel free to cite the following paper:
+If this project has been helpful for your research, please consider citing the following paper:
 
 ```
 @article{10.1590/s1678-86212021000100498,
